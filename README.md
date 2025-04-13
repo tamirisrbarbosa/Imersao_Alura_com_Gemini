@@ -9,7 +9,7 @@ Este projeto foi criado com o apoio do Gemini, um grande modelo de linguagem do 
 
 
 
-O projeto se trata de uma aplicação simples para pesquisar e explorar uma lista de livros que recomendo (2024) , onde quase todos contam com links onde é possível ler ou ter mais informações sobre.
+O projeto se trata de uma aplicação simples para pesquisar e explorar uma lista de livros que recomendo (2024) , onde quase todos contam com links onde é possível ler o livro ou ter mais informações sobre.
 
 
 ---
