@@ -1,105 +1,92 @@
-# 📚 **Biblioteca Virtual**
+# 📚 Biblioteca Virtual – Projeto Imersão Dev Alura + Gemini
 
+Aplicação web desenvolvida durante a Imersão Dev da Alura em parceria com o Google Gemini. O projeto consiste em uma lista interativa de livros, com funcionalidade de busca por título, autor ou palavra-chave.
 
-
-
-Este projeto foi criado durante a Imersão Dev Alura em parceria com o Gemini, sob a orientação dos incríveis instrutores Guilherme Lima, Rafaella Ballerini e Luciano Martins. 
-Este projeto foi criado com o apoio do Gemini, um grande modelo de linguagem do Google AI, que me auxiliou a gerar ideias, a escrever um código mais eficiente e a aprimorar a experiência do usuário.
-
-
-
-
-O projeto se trata de uma aplicação simples para pesquisar e explorar uma lista de livros que recomendo (2024) , onde quase todos contam com links onde é possível ler o livro ou ter mais informações sobre.
-
+🔗 Acesse online: [https://imersao-alura-com-gemini.vercel.app/](https://imersao-alura-com-gemini.vercel.app/)
 
 ---
 
-# 🚀 **Visão Geral**: 
+## 🎯 Objetivo
 
-Este projeto é uma aplicação web que permite pesquisar livros a partir de uma lista pré-definida. Com uma interface limpa e simples, você pode encontrar informações sobre livros com base em seus títulos, descrições ou tags.
-
-
----
-
-## 📋 *Funcionalidades Principais*: 
-
-Pesquisa de Livros: Encontre livros recomendados digitando o nome do livro ou autor.
-Resultados Detalhados: Visualize o título, descrição e um link para mais informações sobre cada livro.
-Design Responsivo: A aplicação é adaptada para diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.
-
+Este projeto foi criado com foco em praticar:
+- Manipulação de DOM com JavaScript moderno (ES6+)
+- Uso de dados estruturados em JSON
+- Desenvolvimento front-end responsivo
+- Refatoração com suporte de IA (Gemini)
 
 ---
 
+## ⚙️ Funcionalidades
 
-## 🛠️ **Tecnologias Utilizadas**:  
-
-```bash
-HTML: Estrutura básica da página.
-
-CSS: Estilos e layout responsivo.
-
-JavaScript: Funcionalidade de pesquisa e exibição de resultados.
-
-JSON: Dados dos livros armazenados e utilizados pela aplicação.
-
-Gemini: Utilizado para melhorar o projeto.
-
-```
----
-
-## 🌐 **Demonstração**:  
-
-Você pode visualizar o projeto em este link (https://imersao-alura-com-gemini.vercel.app/).
+- 🔍 Pesquisa em tempo real por título ou autor
+- 📚 Listagem dinâmica de livros recomendados
+- 🖥️ Design responsivo (desktop/mobile)
+- 📎 Links diretos para leitura ou mais informações
 
 ---
 
-## 💡 **Como Usar**
+## 🛠️ Tecnologias
 
-1. Use o botão "<> Code" aqui no GitHub para baixar o repositório do projeto para o seu computador;
-2. Abra o arquivo chamado index.html, na pasta em seu computador;
+- HTML5
+- CSS3
+- JavaScript ES6+
+- JSON
+- Vercel (deploy)
+- Gemini (refatoração e suporte técnico)
 
-No Site *Pesquise Livros*:
+---
 
-Use o campo de pesquisa para digitar o nome de um livro, autor ou palavra-chave e pressione "Enter".
+## 🧠 Aprendizados técnicos
+
+- Uso de `map()`, `filter()` e `includes()` para filtrar dados
+- Modularização do código em arquivos separados (`app.js`, `dados.js`)
+- Manipulação do DOM e eventos em JavaScript puro
+- Deploy rápido com GitHub + Vercel
 
 ---
 
 ## 📁 **Estrutura do Projeto**
-```bash
-
-Index.html: Estrutura principal da aplicação.
-
-Styles.css: Estilos e layout da página.
-
-Dados.js: Dados dos livros em formato JSON.
-
-App.js: Funcionalidade de pesquisa e exibição de resultados.
 
 ```
+📦 biblioteca-virtual/
+├── index.html
+├── style.css
+├── app.js
+├── dados.js
+└── README.md
+```
+---
+
+## 🖼️ Preview da Interface (Desktop & Mobile)
+
+### 💻 Versão Desktop
+<img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/255ed7d4-b36e-4413-b0b4-94448c87afc7" />
+
+> Exibe campo de busca e botão de pesquisa sobre imagem de fundo, com tipografia clara e foco em usabilidade.
 
 ---
 
-## 🤖 *Contribuição*
+### 📱 Versão Mobile
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/ea1e9a04-a2b1-481f-8077-b2732ff7d0d0" />
 
-Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma issue ou pull request. Sua ajuda é sempre bem-vinda!
+> Layout adaptado com espaçamento adequado e responsividade para pequenos dispositivos.
 
----
 
-## 💁‍♀️ Sobre mim
-Oi! Eu sou a Iris (Tamiris Barbosa) e estou em transição de carreira pra área de desenvolvimento.
-
-Se quiser trocar ideia sobre programação ou tecnologia, bora conversar! 🤝
-
-🔗 [Meu LinkedIn](https://www.linkedin.com/in/tamirisrodriguesbarbosa)
-
-🐙 [Meu GitHub](https://github.com/tamirisrbarbosa)
 
 ---
 
-## 💡 Créditos
+## 🙋‍♀️ Sobre
 
-📄 *Imersão Dev Alura x Gemini*
-Link sobre a Imersão: https://www.linkedin.com/posts/aluracursos_tech-javascript-googlegemini-activity-7231438010196656128-6_ap?utm_source=share&utm_medium=member_desktop;
+Desenvolvido por Tamiris Rodrigues Barbosa como parte da jornada de transição de carreira para Desenvolvimento de Sistemas.
 
-Link da foto usada no projeto: https://unsplash.com/pt-br/fotografias/escada-de-madeira-preta-ao-lado-da-estante-de-madeira-marrom--Pg63JThyCg
+🔗 [LinkedIn](https://www.linkedin.com/in/tamirisrodriguesbarbosa)  
+🐙 [GitHub](https://github.com/tamirisrbarbosa)
+
+---
+
+## 📄 Créditos
+
+- **Imersão Dev Alura + Gemini**: [LinkedIn oficial](https://www.linkedin.com/posts/aluracursos_tech-javascript-googlegemini-activity-7231438010196656128-6_ap)
+- **Imagem de capa**: Unsplash – [escada na estante](https://unsplash.com/pt-br/fotografias/escada-de-madeira-preta-ao-lado-da-estante-de-madeira-marrom--Pg63JThyCg)
+
 
